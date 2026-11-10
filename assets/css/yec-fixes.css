@@ -1,0 +1,6 @@
+/* YEC copy: small fixes on top of the original Nicepage styles */
+@media (max-width: 575px) {
+  /* "Fostering Growth" card: the original rule had an invalid width (NaNpx), so on phones the text was 430px wide, off-centre and cut off */
+  .u-section-4 .u-text-5, .u-section-4 .u-text-6 { width: 253px; }
+}
+a:focus-visible, .u-btn:focus-visible { outline: 2px solid #cba12b; outline-offset: 2px; }
